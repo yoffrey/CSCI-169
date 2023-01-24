@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b28738d-f07b-4bc2-b553-529b6f312d1b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Notes/python.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW2/HW2P1Chen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW2/HW2P3Chen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW2/HW2P4Chen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW2/HW2P5Chen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW1/HW1P1Chen.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/HW1P1Chen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW1/HW1P2Chen.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/HW1P2Chen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW1/HW1P3Chen.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/HW1P3Chen.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW2/HW2P2Chen.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW2/HW2P2Chen.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +46,12 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.HW1P3Chen">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/HW2" />
+    </key>
+  </component>
+  <component name="RunManager">
     <configuration name="HW1P3Chen" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="CSCI-169" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -69,7 +75,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="HW2P2Chen" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="HW2P5Chen" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="CSCI-169" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -83,7 +89,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW2/HW2P2Chen.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW2/HW2P5Chen.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -104,7 +110,10 @@
       <workItem from="1673920826312" duration="2870000" />
       <workItem from="1674258133044" duration="1256000" />
       <workItem from="1674260711197" duration="185000" />
-      <workItem from="1674260906471" duration="39000" />
+      <workItem from="1674260906471" duration="95000" />
+      <workItem from="1674261010776" duration="829000" />
+      <workItem from="1674517390543" duration="1066000" />
+      <workItem from="1674530814449" duration="2912000" />
     </task>
     <servers />
   </component>
@@ -115,7 +124,11 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/CSCI_169$HW2P2Chen.coverage" NAME="HW2P2Chen Coverage Results" MODIFIED="1674260654007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW2" />
-    <SUITE FILE_PATH="coverage/CSCI_169$HW1P3Chen.coverage" NAME="HW1P3Chen Coverage Results" MODIFIED="1674260631864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW1" />
+    <SUITE FILE_PATH="coverage/CSCI_169$HW2P5Chen.coverage" NAME="HW2P5Chen Coverage Results" MODIFIED="1674533662197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW2" />
+    <SUITE FILE_PATH="coverage/CSCI_169$HW2P4Chen.coverage" NAME="HW2P4Chen Coverage Results" MODIFIED="1674533500061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW2" />
+    <SUITE FILE_PATH="coverage/CSCI_169$HW2P2Chen.coverage" NAME="HW2P2Chen Coverage Results" MODIFIED="1674531726858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW2" />
+    <SUITE FILE_PATH="coverage/CSCI_169$HW2P3Chen.coverage" NAME="HW2P3Chen Coverage Results" MODIFIED="1674533221432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW2" />
+    <SUITE FILE_PATH="coverage/CSCI_169$HW2P1Chen.coverage" NAME="HW2P1Chen Coverage Results" MODIFIED="1674531227363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW2" />
+    <SUITE FILE_PATH="coverage/CSCI_169$HW1P3Chen.coverage" NAME="HW1P3Chen Coverage Results" MODIFIED="1674531040771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW1" />
   </component>
 </project>

@@ -1,44 +1,24 @@
-import numpy as np
+x = 10 # global
+c=10 # global
 
-# Create an empty board
-arr = np.zeros((8, 8), dtype=int)
-currentRow = len(arr) - 1
+def spam ():
+    c=14 # c is local to spam
+    bbeans = 15 # bbeans is local to spam
 
+    def inner ():
+        c="funtimes!" # this c is local to inner
+        def innerinner():
+            global a # since there is no global a to access, this will create the global variable a
+            a=54 # global a is set to 54
+            nonlocal c # since there is a nonlocal c which is 14, it will use that value
+            c=54 # changes the nonlocal c to 54
+            nonlocal bbeans # since there is a nonlocal bbeans which is 15, it will use that value
+            bbeans=68 # changes nonlocal bbeans to 68
+        innerinner()
+        print(c) # since innerinner() is called before this print, this will print 54
+        return bbeans # this will return 68, since innerinner() is called before this return
+    print(x) # prints the global x, 10, since there is no local x
+    print(c) # prints the local c, 14, since there is a local c
+    return inner() # this returns the value of bbeans 68
 
-def check_attack(i, j):
-    for k in range(len(arr)):
-        # check left/right
-        if arr[i][k] == 1:
-            return True
-        # check up/down
-        if arr[k][j] == 1:
-            return True
-    # check diagonals
-    for k in range(len(arr)):
-        for l in range(len(arr)):
-            if (k + l == i + j) or (k - l == i - j):
-                if arr[k][l] == 1:
-                    return True
-    return False
-
-
-def n_queen(n, i):
-    # If you reach n==0 then all queens are in place
-    if n == 0:
-        print(arr)
-        return True
-    for i in range(i, len(arr)):
-        for j in range(0, len(arr)):
-            # Check if queen's attack and if there is already queen in that spot
-            if (check_attack(i, j) is False) and (arr[i][j] != 1):
-                # If spot is safe, set that spot to 1
-                arr[i][j] = 1
-                # Recurse on the rest of the board
-                if n_queen(n - 1, i + 1):
-                    return True
-                # If the function above returns False, then set the spot to 0 and try again
-                arr[i][j] = 0
-    return False
-
-
-n_queen(len(arr), 0)
+print(spam()) # This will print what spam returned, which is the value of bbeans, 68.
