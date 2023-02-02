@@ -25,7 +25,8 @@ def check_attack(i, j):
 def n_queen(n, i):
     # If you reach n==0 then all queens are in place
     if n == 0:
-        print(arr)
+        for i in range(len(arr)):
+            print(arr[i])
         return True
     for i in range(i, len(arr)):
         for j in range(0, len(arr)):
