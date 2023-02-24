@@ -26,11 +26,11 @@ class Hand
 
   attr_reader :score, :hand, :cash
 
-  def initialize(player)
+  def initialize(player, deposit)
     @hand = []
     @score = score_hand(@hand)
     @player = player.capitalize
-    @cash = 1000
+    @cash = deposit
   end
 
   def deal
@@ -102,9 +102,10 @@ class Hand
   end
 end
 
-puts "Welcome to Blackjack!"
-player_hand = Hand.new("player")
-dealer_hand = Hand.new("dealer")
+puts "Welcome to blackjack!"
+player_hand = Hand.new("player", 1000)
+dealer_hand = Hand.new("dealer", 0)
+print(player_hand.reveal)
 quit_check = nil
 until quit_check == "Y"
   @@current_deck = Deck.new
@@ -129,7 +130,7 @@ until quit_check == "Y"
 
   until response == "S"
     if player_hand.score == 21
-      puts "Blackjack!"
+      puts "blackjack!"
       break
     end
 
@@ -156,7 +157,7 @@ until quit_check == "Y"
       dealer_hand.add_card
     end
     if dealer_hand.score == 21
-      puts "Dealer Blackjack!"
+      puts "Dealer blackjack!"
       player_hand.lose(bet)
       puts "You lose. You now have $#{player_hand.cash}"
     elsif dealer_hand.score < 21
