@@ -2564,6 +2564,7 @@
       <change afterPath="$PROJECT_DIR$/blackjack_web/tmp/storage/.keep" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/blackjack_web/vendor/.keep" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/blackjack_web/vendor/javascript/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitattributes" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -2751,7 +2752,7 @@
       <option name="presentableId" value="Default" />
       <updated>1677180271013</updated>
       <workItem from="1677180272355" duration="4715000" />
-      <workItem from="1677189771892" duration="20480000" />
+      <workItem from="1677189771892" duration="20810000" />
     </task>
     <servers />
   </component>
