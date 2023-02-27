@@ -2564,7 +2564,6 @@
       <change afterPath="$PROJECT_DIR$/blackjack_web/tmp/storage/.keep" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/blackjack_web/vendor/.keep" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/blackjack_web/vendor/javascript/.keep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitattributes" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -2752,12 +2751,35 @@
       <option name="presentableId" value="Default" />
       <updated>1677180271013</updated>
       <workItem from="1677180272355" duration="4715000" />
-      <workItem from="1677189771892" duration="20810000" />
+      <workItem from="1677189771892" duration="21266000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Project@blackjack_controller.rcov" NAME="blackjack_controller Coverage Results" MODIFIED="1677198313198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Project" />
