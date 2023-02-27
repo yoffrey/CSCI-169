@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a2b1b917-3d61-482c-8aa0-ea4c9cddc772" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/blackjack_web/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/.ruby-version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/Gemfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/Gemfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/Rakefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/app/assets/config/manifest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/app/assets/images/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/app/assets/stylesheets/application.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/app/channels/application_cable/channel.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/app/channels/application_cable/connection.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/app/controllers/application_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/app/controllers/blackjack_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/app/controllers/concerns/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/app/helpers/application_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/app/helpers/home_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/app/javascript/application.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/app/javascript/controllers/application.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/app/javascript/controllers/hello_controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/app/javascript/controllers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/app/jobs/application_job.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/app/mailers/application_mailer.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/app/models/application_record.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/app/models/concerns/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/app/views/blackjack/bet.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/app/views/blackjack/deal_new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/app/views/blackjack/game_stand.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/app/views/blackjack/start.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/bin/bundle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/bin/bundle.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/bin/importmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/bin/rails" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/bin/rake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/bin/setup" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/config.ru" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/config/application.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/config/boot.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/config/cable.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/config/credentials.yml.enc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/config/database.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/config/environment.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/config/environments/development.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/config/environments/production.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/config/environments/test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/config/importmap.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/config/initializers/assets.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/config/initializers/content_security_policy.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/config/initializers/filter_parameter_logging.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/config/initializers/inflections.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/config/initializers/permissions_policy.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/config/locales/en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/config/puma.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/config/routes.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/config/storage.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/db/seeds.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/lib/assets/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/lib/tasks/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/log/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/public/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/public/422.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/public/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/public/apple-touch-icon-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/public/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/storage/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/test/application_system_test_case.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/test/channels/application_cable/connection_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/test/controllers/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/test/controllers/home_controller_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/test/fixtures/files/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/test/helpers/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/test/integration/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/test/mailers/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/test/models/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/test/system/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/test/test_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/tmp/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/tmp/pids/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/tmp/storage/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/vendor/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blackjack_web/vendor/javascript/.keep" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/blackjack_web" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2M9WRXGYP2Eok2eWeKWpvvbqq0T" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/jeffr/OneDrive/Documents/GitHub/CSCI-169/Project",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ruby.rails.projectView.checked": "true",
+    "ruby.structure.view.model.defaults.configured": "true",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
+      <predefined_log_file enabled="true" id="RUBY_CUCUMBER" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPTS_PATHS" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="true" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
+      <predefined_log_file enabled="true" id="RUBY_RSPEC" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATHS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="RackRunConfigurationType" factoryName="Rack">
+      <RACK_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RACK_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RACK_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RACK_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RACK_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <RACK_CONFIG_SETTINGS_ID NAME="PORT" VALUE="9292" />
+      <RACK_CONFIG_SETTINGS_ID NAME="IP" VALUE="127.0.0.1" />
+      <RACK_CONFIG_SETTINGS_ID NAME="CONFIG_FILE" VALUE="" />
+      <RACK_CONFIG_SETTINGS_ID NAME="RACK_SERVER_TYPE" VALUE="Default" />
+      <RACK_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="RubyRunConfigurationType" factoryName="Ruby" nameIsGenerated="true">
+      <module name="Project" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
+      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPTS_PATHS" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a2b1b917-3d61-482c-8aa0-ea4c9cddc772" name="Changes" comment="" />
+      <created>1677180271013</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677180271013</updated>
+      <workItem from="1677180272355" duration="4715000" />
+      <workItem from="1677189771892" duration="20162000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Project@blackjack_controller.rcov" NAME="blackjack_controller Coverage Results" MODIFIED="1677198313198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Project" />
+    <SUITE FILE_PATH="coverage/Project@blackjack.rcov" NAME="blackjack Coverage Results" MODIFIED="1677196835031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Project" />
+  </component>
+</project>
