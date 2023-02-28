@@ -1,5 +1,3 @@
-import scala.::
-
 object HW6 extends App {
   def ls = 7 :: 2 :: 5 :: 1 :: Nil
   def add(x: Int, y: Int) = x + y

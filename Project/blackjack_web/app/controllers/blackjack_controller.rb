@@ -1,5 +1,6 @@
 $VERBOSE = nil
 class BlackjackController < ApplicationController
+  skip_before_action :verify_authenticity_token
   def clear_suits(card)
     card.delete "♠", "♣", "♦", "♥"
   end

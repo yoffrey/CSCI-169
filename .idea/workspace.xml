@@ -5,26 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b28738d-f07b-4bc2-b553-529b6f312d1b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Project/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/.idea/Project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/nqueens.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW2/HW2P5Chen.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW2/HW2P5Chen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notes/python.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW6/src/main/scala/HW6-1-5-Chen.scala" beforeDir="false" afterPath="$PROJECT_DIR$/HW6/src/main/scala/HW6-1-5-Chen.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/blackjack_web/app/controllers/blackjack_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/Project/blackjack_web/app/controllers/blackjack_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/blackjack_web/log/development.log" beforeDir="false" afterPath="$PROJECT_DIR$/Project/blackjack_web/log/development.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/blackjack_web/tmp/cache/bootsnap/compile-cache-iseq/e0/e55e5b3a16c355" beforeDir="false" afterPath="$PROJECT_DIR$/Project/blackjack_web/tmp/cache/bootsnap/compile-cache-iseq/e0/e55e5b3a16c355" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/blackjack_web/tmp/cache/bootsnap/load-path-cache" beforeDir="false" afterPath="$PROJECT_DIR$/Project/blackjack_web/tmp/cache/bootsnap/load-path-cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/blackjack_web/tmp/pids/server.pid" beforeDir="false" afterPath="$PROJECT_DIR$/Project/blackjack_web/tmp/pids/server.pid" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2KQxtpD0bUi2aLJZDMh5DktBsAJ" />
   <component name="ProjectLevelVcsManager">
@@ -40,7 +46,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/jeffrey/Github/CSCI-169&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jeffr/OneDrive/Documents/GitHub/CSCI-169&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -62,7 +68,6 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="/usr/local/bin/python3.10" />
-      <option name="SDK_NAME" value="Python 3.10" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW1" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -85,7 +90,6 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="/usr/local/bin/python3.10" />
-      <option name="SDK_NAME" value="Python 3.10" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW2" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -126,13 +130,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/CSCI_169$HW2P5Chen.coverage" NAME="HW2P5Chen Coverage Results" MODIFIED="1674761686656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW2" />
-    <SUITE FILE_PATH="coverage/CSCI_169$HW2P4Chen.coverage" NAME="HW2P4Chen Coverage Results" MODIFIED="1674533500061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW2" />
-    <SUITE FILE_PATH="coverage/CSCI_169$HW2P2Chen.coverage" NAME="HW2P2Chen Coverage Results" MODIFIED="1674531726858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW2" />
-    <SUITE FILE_PATH="coverage/CSCI_169$HW2P3Chen.coverage" NAME="HW2P3Chen Coverage Results" MODIFIED="1674533221432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW2" />
-    <SUITE FILE_PATH="coverage/CSCI_169$HW2P1Chen.coverage" NAME="HW2P1Chen Coverage Results" MODIFIED="1675222370519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW2" />
-    <SUITE FILE_PATH="coverage/CSCI_169$HW1P3Chen.coverage" NAME="HW1P3Chen Coverage Results" MODIFIED="1675222364566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW1" />
   </component>
 </project>
