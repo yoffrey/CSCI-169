@@ -113,9 +113,7 @@ class BlackjackController < ApplicationController
     current_deck = session[:current_deck]["deck"]
     current_deck = Deck.new(current_deck)
     player_hand = session[:player_hand]
-    puts "____________________________"
-    puts player_hand
-    puts "____________________________"
+
     player_hand = Hand.new(player_hand["player"], player_hand["cash"], player_hand["hand"])
     player = player_hand.player
 

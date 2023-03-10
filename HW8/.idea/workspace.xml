@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7cc1ef23-3352-4dba-af48-47229954eb9c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../HW7/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW8P12Chen.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW8P3Chen.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW8P4Chen.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW5/project/target/config-classes/$752991e5c0b7bcc23787$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW5/project/target/config-classes/$752991e5c0b7bcc23787.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW5/project/target/config-classes/$752991e5c0b7bcc23787.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW5/project/target/config-classes/$8737a856544504b2c611$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW5/project/target/config-classes/$8737a856544504b2c611.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW5/project/target/config-classes/$8737a856544504b2c611.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW5/project/target/config-classes/$dada9fcb4224a786add8$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW5/project/target/config-classes/$dada9fcb4224a786add8.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW5/project/target/config-classes/$dada9fcb4224a786add8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW5/project/target/config-classes/$fcb3fa01597e9c2c4e8b$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW5/project/target/config-classes/$fcb3fa01597e9c2c4e8b.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW5/project/target/config-classes/$fcb3fa01597e9c2c4e8b.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW5/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW5/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW5/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW5/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW5/project/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5/project/target/streams/_global/update/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW5/project/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5/project/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW5/project/target/streams/compile/copyResources/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5/project/target/streams/compile/copyResources/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW5/project/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5/project/target/streams/compile/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW5/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW5/project/target/streams/compile/incOptions/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5/project/target/streams/compile/incOptions/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW5/project/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5/project/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW5/project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5/project/target/streams/runtime/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW5/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW5/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5/project/target/streams/runtime/fullClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW5/project/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5/project/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW6/project/target/config-classes/$1417636a85bff70cff42$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW6/project/target/config-classes/$1417636a85bff70cff42.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW6/project/target/config-classes/$1417636a85bff70cff42.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW6/project/target/config-classes/$7952a2bc95b9ad1ab721$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW6/project/target/config-classes/$7952a2bc95b9ad1ab721.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW6/project/target/config-classes/$7952a2bc95b9ad1ab721.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW6/project/target/config-classes/$a5381149ad9d46a04a13$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW6/project/target/config-classes/$a5381149ad9d46a04a13.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW6/project/target/config-classes/$a5381149ad9d46a04a13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW6/project/target/config-classes/$f4f0d99553dd20f13397$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW6/project/target/config-classes/$f4f0d99553dd20f13397.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW6/project/target/config-classes/$f4f0d99553dd20f13397.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW6/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/../HW6/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW6/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/../HW6/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW6/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../HW6/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW6/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../HW6/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW6/project/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../HW6/project/target/streams/_global/update/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW6/project/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../HW6/project/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW6/project/target/streams/compile/copyResources/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../HW6/project/target/streams/compile/copyResources/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW6/project/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../HW6/project/target/streams/compile/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW6/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../HW6/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW6/project/target/streams/compile/incOptions/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../HW6/project/target/streams/compile/incOptions/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW6/project/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../HW6/project/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW6/project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../HW6/project/target/streams/runtime/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW6/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../HW6/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW6/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../HW6/project/target/streams/runtime/fullClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW6/project/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../HW6/project/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW6/target/scala-2.13/classes/HW6$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW6/target/scala-2.13/classes/HW6$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW6/target/scala-2.13/classes/HW6$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW6/target/scala-2.13/classes/HW6$delayedInit$body.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW6/target/scala-2.13/classes/HW6.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW6/target/scala-2.13/classes/HW6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/project/target/config-classes/$852e995e43d321844e07$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/project/target/config-classes/$852e995e43d321844e07.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/project/target/config-classes/$852e995e43d321844e07.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/project/target/config-classes/$a6635f8b67cdfcd9dddb$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/project/target/config-classes/$a6635f8b67cdfcd9dddb.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/project/target/config-classes/$a6635f8b67cdfcd9dddb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/project/target/config-classes/$b304816dd2279569f83b$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/project/target/config-classes/$b304816dd2279569f83b.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/project/target/config-classes/$b304816dd2279569f83b.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/project/target/config-classes/$bc2baf0418f20e0d67a8$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/project/target/config-classes/$bc2baf0418f20e0d67a8.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/project/target/config-classes/$bc2baf0418f20e0d67a8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/project/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/project/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/project/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/project/target/streams/_global/update/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/project/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/project/target/streams/compile/_global/_global/compileOutputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/project/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/project/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/project/target/streams/compile/copyResources/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/project/target/streams/compile/copyResources/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/project/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/project/target/streams/compile/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/project/target/streams/compile/exportedProducts/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/project/target/streams/compile/exportedProducts/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/project/target/streams/compile/incOptions/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/project/target/streams/compile/incOptions/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/project/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/project/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/project/target/streams/runtime/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/project/target/streams/runtime/exportedProducts/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/project/target/streams/runtime/exportedProducts/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/project/target/streams/runtime/fullClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/project/target/streams/runtime/internalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/project/target/streams/runtime/internalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW7/project/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../HW7/project/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/.idea/Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/.idea/Project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2MciFbd4bok8WjHqazmCxFPeak0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7cc1ef23-3352-4dba-af48-47229954eb9c" name="Changes" comment="" />
+      <created>1678073170419</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678073170419</updated>
+      <workItem from="1678073171684" duration="12143000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
