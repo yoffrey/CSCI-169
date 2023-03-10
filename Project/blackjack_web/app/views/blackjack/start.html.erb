@@ -1,22 +1,20 @@
-<div class="row">
-  <div class="col-md-2">
-    <div class = "col-md-8">
-      <h2>Welcome to Blackjack!</h2>
-      <div class="well">
-        <form action="/save_name_cash" method="post">
-          <h5>What is your name?</h5>
-          <input name = 'player' type="string">
-          <br/>
-          <h5>How much would you like to cash in?</h5>
-          <input name='deposit' type="number">
-          <br/><br/>
-          <input type="submit" value='Submit' class="btn btn-primary">
-          <br/><br/>
-          <input type="hidden" name="redirect_to" id="redirect_to" value="">
-          <input type="submit" name="button1" value="Continue from previous game" onclick="document.getElementById('redirect_to').value='/continue';">
-        </form>
-      </div>
-    </div>
-    <div class="col-md-2"></div>
-  </div>
+<%= stylesheet_link_tag "application.css" %>
+<% flash.each do |type, msg| %>
+    <h4><%= msg %></h4>
+<% end %>
+<div class="parent">
+
+  <form action="/save_name_cash" method="post">
+    <h2>Welcome to Blackjack!</h2>
+    <h5>What is your name?</h5>
+    <input name = 'player' type="string">
+    <br/>
+    <h5>How much would you like to cash in?</h5>
+    <input name='deposit' type="number">
+    <br/><br/>
+    <input type="submit" name="button1" value="Submit" onclick="document.getElementById('redirect_to').value='/submit';">
+    <input type="hidden" name="redirect_to" id="redirect_to" value="">
+    <input type="submit" name="button1" value="Continue from previous game" onclick="document.getElementById('redirect_to').value='/continuefromprevious';">
+  </form>
+
 </div>

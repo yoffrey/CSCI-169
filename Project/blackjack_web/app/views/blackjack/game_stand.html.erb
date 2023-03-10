@@ -1,23 +1,17 @@
-<div class="row">
-  <div class="col-md-2">
-    <div class = "col-md-8">
-      <h2>Blackjack</h2>
-      <div class="well">
-        <h3>You have <% @player_cards.each do |val| %>
-            <%= val %>
-          <% end %>: <%= @player_score %></h3>
-        <h3>Dealer has <% @dealer_cards.each do |val| %>
-            <%= val %>
-          <% end %>: <%= @dealer_score %></h3>
-        <h3><%= @result %></h3>
-        <form action="/save_name_cash" method="post">
-          <input type="hidden" name="redirect_to" id="redirect_to" value="">
-          <input type="submit" name="button1" value="Continue" onclick="document.getElementById('redirect_to').value='/bet';">
-        </form>
-
-      </div>
-    </div>
-    <div class="col-md-2"></div>
-  </div>
-</div>
+<%= stylesheet_link_tag "application.css" %>
+<% flash.each do |type, msg| %>
+  <h4><%= msg %></h4>
+<% end %>
+<div class="parent">
+  <form action="/save_name_cash" method="post">
+    <h3>You have <% @player_cards.each do |val| %>
+        <%= val %>
+      <% end %>: <%= @player_score %></h3>
+    <h3>Dealer has <% @dealer_cards.each do |val| %>
+        <%= val %>
+      <% end %>: <%= @dealer_score %></h3>
+    <h3><%= @result %></h3>
+    <input type="hidden" name="redirect_to" id="redirect_to" value="">
+    <input type="submit" name="button1" value="Continue" onclick="document.getElementById('redirect_to').value='/continuegame';">
+  </form>
 </div>

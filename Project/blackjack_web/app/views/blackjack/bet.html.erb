@@ -1,18 +1,17 @@
-<div class="row">
-  <div class="col-md-2">
-    <div class = "col-md-8">
-      <h2>Blackjack</h2>
-      <div class="well">
-        <form action="/save_bet" method="post">
-          <h5>How much would you like to bet? You have <%= @player_cash %></h5>
-          <input name='bet' type="number">
-          <br/><br/>
-            <input type="hidden" name="redirect_to" id="redirect_to" value="">
-            <input type="submit" name="button1" value="Submit" onclick="document.getElementById('redirect_to').value='/submit';">
-            <input type="submit" name="button1" value="Start Over" onclick="document.getElementById('redirect_to').value='/start';">
-        </form>
-      </div>
-    </div>
-    <div class="col-md-2"></div>
-  </div>
+<%= stylesheet_link_tag "application.css" %>
+<% flash.each do |type, msg| %>
+  <h4><%= msg %></h4>
+<% end %>
+<div class="parent">
+  <form action="/save_bet" method="post">
+    <h2>Blackjack</h2>
+    <h5>How much would you like to bet? You have $<%= @player_cash %>.</h5>
+    <input name='bet' type="number">
+    <br/><br/>
+    <input type="hidden" name="redirect_to" id="redirect_to" value="">
+    <input type="submit" name="button1" value="Submit" onclick="document.getElementById('redirect_to').value='/submit';">
+    <input type="submit" name="button1" value="Start Over" onclick="document.getElementById('redirect_to').value='/start';">
+  </form>
 </div>
+
+

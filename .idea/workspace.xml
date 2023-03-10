@@ -5,15 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b28738d-f07b-4bc2-b553-529b6f312d1b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW6/src/main/scala/HW6-1-5-Chen.scala" beforeDir="false" afterPath="$PROJECT_DIR$/HW6/src/main/scala/HW6-1-5-Chen.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/blackjack_web/app/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/Project/blackjack_web/app/assets/stylesheets/application.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project/blackjack_web/app/controllers/blackjack_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/Project/blackjack_web/app/controllers/blackjack_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/blackjack_web/app/views/blackjack/bet.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/Project/blackjack_web/app/views/blackjack/bet.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/blackjack_web/app/views/blackjack/deal_new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/Project/blackjack_web/app/views/blackjack/deal_new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/blackjack_web/app/views/blackjack/game_stand.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/Project/blackjack_web/app/views/blackjack/game_stand.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/blackjack_web/app/views/blackjack/start.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/Project/blackjack_web/app/views/blackjack/start.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project/blackjack_web/log/development.log" beforeDir="false" afterPath="$PROJECT_DIR$/Project/blackjack_web/log/development.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project/blackjack_web/tmp/cache/bootsnap/compile-cache-iseq/e0/e55e5b3a16c355" beforeDir="false" afterPath="$PROJECT_DIR$/Project/blackjack_web/tmp/cache/bootsnap/compile-cache-iseq/e0/e55e5b3a16c355" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project/blackjack_web/tmp/cache/bootsnap/load-path-cache" beforeDir="false" afterPath="$PROJECT_DIR$/Project/blackjack_web/tmp/cache/bootsnap/load-path-cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/blackjack_web/tmp/pids/server.pid" beforeDir="false" afterPath="$PROJECT_DIR$/Project/blackjack_web/tmp/pids/server.pid" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,26 +43,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jeffr/OneDrive/Documents/GitHub/CSCI-169&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/jeffr/OneDrive/Documents/GitHub/CSCI-169/HW6",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/HW2" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.HW1P3Chen">
     <configuration name="HW1P3Chen" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="CSCI-169" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -67,7 +70,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="/usr/local/bin/python3.10" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW1" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
