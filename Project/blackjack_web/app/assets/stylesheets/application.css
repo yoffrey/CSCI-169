@@ -18,7 +18,7 @@
 html, body { height: 100%; background: rgba(41,70,49,255);}
 
 .parent {
-    top: 40%;
+    top: 35%;
     display: flex;
     align-items: center;
     justify-content: center;

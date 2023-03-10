@@ -12,9 +12,13 @@
     <h5>How much would you like to cash in?</h5>
     <input name='deposit' type="number">
     <br/><br/>
-    <input type="submit" name="button1" value="Submit" onclick="document.getElementById('redirect_to').value='/submit';">
+    <input type="submit" name="button1" value="Start New Game" onclick="document.getElementById('redirect_to').value='/submit';">
     <input type="hidden" name="redirect_to" id="redirect_to" value="">
+    <br/><br/>
+    <h5><%= @continue %></h5>
+    <% if @continue %>
     <input type="submit" name="button1" value="Continue from previous game" onclick="document.getElementById('redirect_to').value='/continuefromprevious';">
+    <% end %>
   </form>
 
 </div>

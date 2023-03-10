@@ -1,17 +1,23 @@
-$VERBOSE = nil
 class BlackjackController < ApplicationController
   skip_before_action :verify_authenticity_token
 
   def start
-
+    # If player exists, give user option to continue playing
+    if session[:player_hand]["cash"] > 0
+      player = session[:player_hand]["player"]
+      cash = session[:player_hand]["cash"]
+      @continue = "You may continue the game as #{player} with $#{cash}."
+    end
   end
 
   def save_name_cash
+    # Check which page the user came from and if inputs are valid
     if params[:redirect_to] == "/continuegame" and session[:player_hand]["cash"] > 0
       redirect_to bet_path
     elsif params[:redirect_to] == "/continuefromprevious" and session[:player_hand]["cash"] > 0
       redirect_to bet_path
     elsif params[:redirect_to] == "/submit" and params[:player] and params[:deposit].to_i>0
+      # Start new game
       player_hand = Hand.new(params[:player], params[:deposit].to_i)
       session[:player_hand] = player_hand
       redirect_to bet_path
@@ -81,7 +87,7 @@ class BlackjackController < ApplicationController
   end
 
   def game
-    # Get session data for player and initialize them again
+    # Get session data for player and deck. Initialize them again
     player_hand = session[:player_hand]
     player_hand = Hand.new(player_hand["player"], player_hand["cash"], player_hand["hand"])
 
@@ -112,15 +118,15 @@ class BlackjackController < ApplicationController
     # Initialize deck, player hand and dealer hand
     current_deck = session[:current_deck]["deck"]
     current_deck = Deck.new(current_deck)
-    player_hand = session[:player_hand]
 
+    player_hand = session[:player_hand]
     player_hand = Hand.new(player_hand["player"], player_hand["cash"], player_hand["hand"])
     player = player_hand.player
 
-    bet = session[:bet]
-
     dealer_hand = session[:dealer_hand]
     dealer_hand = Hand.new(dealer_hand["Dealer"], 0, dealer_hand["hand"])
+
+    bet = session[:bet]
 
     @player_cards = player_hand.hand
     @player_score = player_hand.score
@@ -134,10 +140,12 @@ class BlackjackController < ApplicationController
       player_hand.lose(bet)
     else
       until @dealer_score >= 17 || @dealer_score > @player_score || @dealer_score == 21
-        # Dealer hits
+        # Dealer hits until criteria is met
         dealer_hand.add_card(current_deck.deck)
         @dealer_score = dealer_hand.score
       end
+
+      # Determine who won
       if @dealer_score > 21
         @result = "Dealer busts. #{player} wins!"
         player_hand.win(bet)
