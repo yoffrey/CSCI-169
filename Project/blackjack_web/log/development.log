@@ -19559,3 +19559,1499 @@ Processing by BlackjackController#game_stand as HTML
 Completed 200 OK in 6ms (Views: 3.3ms | Allocations: 2054)
 
 
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:08:22 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 263.4ms | Allocations: 32495)
+Completed 200 OK in 284ms (Views: 271.9ms | ActiveRecord: 0.0ms | Allocations: 36247)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:08:51 -0700
+Processing by BlackjackController#start as HTML
+Completed 500 Internal Server Error in 3ms (Allocations: 790)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/blackjack_controller.rb:7:in `start'
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:09:50 -0700
+Processing by BlackjackController#start as HTML
+Completed 500 Internal Server Error in 2ms (Allocations: 751)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/blackjack_controller.rb:7:in `start'
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:10:10 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 2.3ms | Allocations: 913)
+Completed 200 OK in 5ms (Views: 3.0ms | Allocations: 1797)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:10:20 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 2.3ms | Allocations: 912)
+Completed 200 OK in 5ms (Views: 3.0ms | Allocations: 1633)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:10:23 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 2.2ms | Allocations: 843)
+Completed 200 OK in 5ms (Views: 2.7ms | Allocations: 1300)
+
+
+Started GET "/game_stand" for 127.0.0.1 at 2023-03-13 15:15:40 -0700
+Processing by BlackjackController#game_stand as HTML
+Completed 500 Internal Server Error in 2ms (Allocations: 610)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/blackjack_controller.rb:119:in `game_stand'
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:20:32 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 40.9ms | Allocations: 23205)
+Completed 200 OK in 64ms (Views: 49.6ms | ActiveRecord: 0.0ms | Allocations: 26812)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:20:43 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"player"=>"Jeff", "deposit"=>"1000", "button1"=>"Start New Game", "redirect_to"=>"/submit"}
+Redirected to http://127.0.0.1:3000/bet
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms | Allocations: 561)
+
+
+Started GET "/bet" for 127.0.0.1 at 2023-03-13 15:20:44 -0700
+Processing by BlackjackController#bet as HTML
+  Rendering blackjack/bet.html.erb
+  Rendered blackjack/bet.html.erb (Duration: 2.6ms | Allocations: 1053)
+Completed 200 OK in 6ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 1598)
+
+
+Started POST "/save_bet" for 127.0.0.1 at 2023-03-13 15:20:50 -0700
+Processing by BlackjackController#save_bet as HTML
+  Parameters: {"bet"=>"10001", "redirect_to"=>"/submit", "button1"=>"Submit"}
+Redirected to http://127.0.0.1:3000/bet
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms | Allocations: 311)
+
+
+Started GET "/bet" for 127.0.0.1 at 2023-03-13 15:20:50 -0700
+Processing by BlackjackController#bet as HTML
+  Rendering blackjack/bet.html.erb
+  Rendered blackjack/bet.html.erb (Duration: 2.5ms | Allocations: 849)
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 1324)
+
+
+Started POST "/save_bet" for 127.0.0.1 at 2023-03-13 15:20:54 -0700
+Processing by BlackjackController#save_bet as HTML
+  Parameters: {"bet"=>"-1000", "redirect_to"=>"/submit", "button1"=>"Submit"}
+No template found for BlackjackController#save_bet, rendering head :no_content
+Completed 204 No Content in 5ms (ActiveRecord: 0.0ms | Allocations: 509)
+
+
+Started POST "/save_bet" for 127.0.0.1 at 2023-03-13 15:20:58 -0700
+Processing by BlackjackController#save_bet as HTML
+  Parameters: {"bet"=>"0", "redirect_to"=>"/submit", "button1"=>"Submit"}
+No template found for BlackjackController#save_bet, rendering head :no_content
+Completed 204 No Content in 3ms (ActiveRecord: 0.0ms | Allocations: 316)
+
+
+Started POST "/save_bet" for 127.0.0.1 at 2023-03-13 15:21:02 -0700
+Processing by BlackjackController#save_bet as HTML
+  Parameters: {"bet"=>"10", "redirect_to"=>"/submit", "button1"=>"Submit"}
+Redirected to http://127.0.0.1:3000/deal_new
+Completed 302 Found in 137ms (ActiveRecord: 0.0ms | Allocations: 17184)
+
+
+Started GET "/deal_new" for 127.0.0.1 at 2023-03-13 15:21:02 -0700
+Processing by BlackjackController#deal_new as HTML
+  Rendering blackjack/deal_new.html.erb
+  Rendered blackjack/deal_new.html.erb (Duration: 2.7ms | Allocations: 1153)
+Completed 200 OK in 6ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 1878)
+
+
+Started POST "/game" for 127.0.0.1 at 2023-03-13 15:21:11 -0700
+Processing by BlackjackController#game as HTML
+  Parameters: {"redirect_to"=>"/hit", "button1"=>"Hit"}
+Redirected to http://127.0.0.1:3000/deal_new
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms | Allocations: 549)
+
+
+Started GET "/deal_new" for 127.0.0.1 at 2023-03-13 15:21:11 -0700
+Processing by BlackjackController#deal_new as HTML
+  Rendering blackjack/deal_new.html.erb
+  Rendered blackjack/deal_new.html.erb (Duration: 2.5ms | Allocations: 851)
+Completed 200 OK in 6ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 1504)
+
+
+Started POST "/game" for 127.0.0.1 at 2023-03-13 15:21:13 -0700
+Processing by BlackjackController#game as HTML
+  Parameters: {"redirect_to"=>"/stand", "button2"=>"Stand"}
+Redirected to http://127.0.0.1:3000/game_stand
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms | Allocations: 504)
+
+
+Started GET "/game_stand" for 127.0.0.1 at 2023-03-13 15:21:13 -0700
+Processing by BlackjackController#game_stand as HTML
+  Rendering blackjack/game_stand.html.erb
+  Rendered blackjack/game_stand.html.erb (Duration: 2.6ms | Allocations: 1187)
+Completed 200 OK in 6ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 1996)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:21:24 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"redirect_to"=>"/continuegame", "button1"=>"Continue"}
+Redirected to http://127.0.0.1:3000/bet
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms | Allocations: 419)
+
+
+Started GET "/bet" for 127.0.0.1 at 2023-03-13 15:21:24 -0700
+Processing by BlackjackController#bet as HTML
+  Rendering blackjack/bet.html.erb
+  Rendered blackjack/bet.html.erb (Duration: 2.5ms | Allocations: 846)
+Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 1451)
+
+
+Started POST "/save_bet" for 127.0.0.1 at 2023-03-13 15:21:27 -0700
+Processing by BlackjackController#save_bet as HTML
+  Parameters: {"bet"=>"1010", "redirect_to"=>"/submit", "button1"=>"Submit"}
+Redirected to http://127.0.0.1:3000/deal_new
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms | Allocations: 736)
+
+
+Started GET "/deal_new" for 127.0.0.1 at 2023-03-13 15:21:27 -0700
+Processing by BlackjackController#deal_new as HTML
+  Rendering blackjack/deal_new.html.erb
+  Rendered blackjack/deal_new.html.erb (Duration: 2.0ms | Allocations: 852)
+Completed 200 OK in 5ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 1495)
+
+
+Started POST "/game" for 127.0.0.1 at 2023-03-13 15:21:29 -0700
+Processing by BlackjackController#game as HTML
+  Parameters: {"redirect_to"=>"/hit", "button1"=>"Hit"}
+Redirected to http://127.0.0.1:3000/deal_new
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms | Allocations: 574)
+
+
+Started GET "/deal_new" for 127.0.0.1 at 2023-03-13 15:21:29 -0700
+Processing by BlackjackController#deal_new as HTML
+  Rendering blackjack/deal_new.html.erb
+  Rendered blackjack/deal_new.html.erb (Duration: 2.0ms | Allocations: 851)
+Completed 200 OK in 5ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 1525)
+
+
+Started POST "/game" for 127.0.0.1 at 2023-03-13 15:21:30 -0700
+Processing by BlackjackController#game as HTML
+  Parameters: {"redirect_to"=>"/hit", "button1"=>"Hit"}
+Redirected to http://127.0.0.1:3000/game_stand
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms | Allocations: 562)
+
+
+Started GET "/game_stand" for 127.0.0.1 at 2023-03-13 15:21:30 -0700
+Processing by BlackjackController#game_stand as HTML
+  Rendering blackjack/game_stand.html.erb
+  Rendered blackjack/game_stand.html.erb (Duration: 2.1ms | Allocations: 855)
+Completed 200 OK in 5ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 1598)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:21:31 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"redirect_to"=>"/continuegame", "button1"=>"Continue"}
+Redirected to http://127.0.0.1:3000/bet
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms | Allocations: 443)
+
+
+Started GET "/bet" for 127.0.0.1 at 2023-03-13 15:21:31 -0700
+Processing by BlackjackController#bet as HTML
+  Rendering blackjack/bet.html.erb
+  Rendered blackjack/bet.html.erb (Duration: 2.3ms | Allocations: 844)
+Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 1434)
+
+
+Started POST "/save_bet" for 127.0.0.1 at 2023-03-13 15:21:33 -0700
+Processing by BlackjackController#save_bet as HTML
+  Parameters: {"bet"=>"1010", "redirect_to"=>"/submit", "button1"=>"Submit"}
+Redirected to http://127.0.0.1:3000/deal_new
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms | Allocations: 742)
+
+
+Started GET "/deal_new" for 127.0.0.1 at 2023-03-13 15:21:33 -0700
+Processing by BlackjackController#deal_new as HTML
+  Rendering blackjack/deal_new.html.erb
+  Rendered blackjack/deal_new.html.erb (Duration: 1.9ms | Allocations: 850)
+Completed 200 OK in 5ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 1508)
+
+
+Started POST "/game" for 127.0.0.1 at 2023-03-13 15:21:34 -0700
+Processing by BlackjackController#game as HTML
+  Parameters: {"redirect_to"=>"/hit", "button1"=>"Hit"}
+Redirected to http://127.0.0.1:3000/game_stand
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 521)
+
+
+Started GET "/game_stand" for 127.0.0.1 at 2023-03-13 15:21:34 -0700
+Processing by BlackjackController#game_stand as HTML
+  Rendering blackjack/game_stand.html.erb
+  Rendered blackjack/game_stand.html.erb (Duration: 2.1ms | Allocations: 854)
+Completed 200 OK in 5ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 1570)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:21:34 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"redirect_to"=>"/continuegame", "button1"=>"Continue"}
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms | Allocations: 428)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:21:34 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 1.9ms | Allocations: 844)
+Completed 200 OK in 5ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 1467)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:21:43 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"player"=>"", "deposit"=>"12341234", "button1"=>"Start New Game", "redirect_to"=>"/submit"}
+Redirected to http://127.0.0.1:3000/bet
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms | Allocations: 454)
+
+
+Started GET "/bet" for 127.0.0.1 at 2023-03-13 15:21:43 -0700
+Processing by BlackjackController#bet as HTML
+  Rendering blackjack/bet.html.erb
+  Rendered blackjack/bet.html.erb (Duration: 2.1ms | Allocations: 844)
+Completed 200 OK in 5ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 1448)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:22:26 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"player"=>"", "deposit"=>"12341234", "button1"=>"Start New Game", "redirect_to"=>"/submit"}
+Redirected to http://127.0.0.1:3000/bet
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms | Allocations: 403)
+
+
+Started GET "/bet" for 127.0.0.1 at 2023-03-13 15:22:26 -0700
+Processing by BlackjackController#bet as HTML
+  Rendering blackjack/bet.html.erb
+  Rendered blackjack/bet.html.erb (Duration: 4.0ms | Allocations: 855)
+Completed 200 OK in 7ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 1414)
+
+
+Started POST "/save_bet" for 127.0.0.1 at 2023-03-13 15:22:28 -0700
+Processing by BlackjackController#save_bet as HTML
+  Parameters: {"bet"=>"-11", "redirect_to"=>"/submit", "button1"=>"Submit"}
+No template found for BlackjackController#save_bet, rendering head :no_content
+Completed 204 No Content in 3ms (ActiveRecord: 0.0ms | Allocations: 447)
+
+
+Started POST "/save_bet" for 127.0.0.1 at 2023-03-13 15:22:29 -0700
+Processing by BlackjackController#save_bet as HTML
+  Parameters: {"bet"=>"-11", "redirect_to"=>"/submit", "button1"=>"Submit"}
+No template found for BlackjackController#save_bet, rendering head :no_content
+Completed 204 No Content in 2ms (ActiveRecord: 0.0ms | Allocations: 460)
+
+
+Started POST "/save_bet" for 127.0.0.1 at 2023-03-13 15:22:30 -0700
+Processing by BlackjackController#save_bet as HTML
+  Parameters: {"bet"=>"-11", "redirect_to"=>"/submit", "button1"=>"Submit"}
+No template found for BlackjackController#save_bet, rendering head :no_content
+Completed 204 No Content in 2ms (ActiveRecord: 0.0ms | Allocations: 439)
+
+
+Started POST "/save_bet" for 127.0.0.1 at 2023-03-13 15:22:30 -0700
+Processing by BlackjackController#save_bet as HTML
+  Parameters: {"bet"=>"-11", "redirect_to"=>"/submit", "button1"=>"Submit"}
+No template found for BlackjackController#save_bet, rendering head :no_content
+Completed 204 No Content in 2ms (ActiveRecord: 0.0ms | Allocations: 496)
+
+
+Started POST "/save_bet" for 127.0.0.1 at 2023-03-13 15:22:31 -0700
+Processing by BlackjackController#save_bet as HTML
+  Parameters: {"bet"=>"-11", "redirect_to"=>"/submit", "button1"=>"Submit"}
+No template found for BlackjackController#save_bet, rendering head :no_content
+Completed 204 No Content in 3ms (ActiveRecord: 0.0ms | Allocations: 469)
+
+
+Started POST "/save_bet" for 127.0.0.1 at 2023-03-13 15:22:39 -0700
+Started POST "/save_bet" for 127.0.0.1 at 2023-03-13 15:22:40 -0700
+Processing by BlackjackController#save_bet as HTML
+  Parameters: {"bet"=>"-11", "redirect_to"=>"/submit", "button1"=>"Submit"}
+Redirected to http://127.0.0.1:3000/bet
+Completed 302 Found in 3ms (Allocations: 538)
+
+
+Processing by BlackjackController#save_bet as HTML
+  Parameters: {"bet"=>"-11", "redirect_to"=>"/submit", "button1"=>"Submit"}
+Redirected to http://127.0.0.1:3000/bet
+Completed 302 Found in 2ms (Allocations: 562)
+
+
+Started POST "/save_bet" for 127.0.0.1 at 2023-03-13 15:22:41 -0700
+Started POST "/save_bet" for 127.0.0.1 at 2023-03-13 15:22:41 -0700
+Processing by BlackjackController#save_bet as HTML
+  Parameters: {"bet"=>"-11", "redirect_to"=>"/submit", "button1"=>"Submit"}
+Redirected to http://127.0.0.1:3000/bet
+Completed 302 Found in 4ms (Allocations: 478)
+
+
+Processing by BlackjackController#save_bet as HTML
+  Parameters: {"bet"=>"-11", "redirect_to"=>"/submit", "button1"=>"Submit"}
+Redirected to http://127.0.0.1:3000/bet
+Completed 302 Found in 3ms (Allocations: 467)
+
+
+Started GET "/bet" for 127.0.0.1 at 2023-03-13 15:22:41 -0700
+Processing by BlackjackController#bet as HTML
+  Rendering blackjack/bet.html.erb
+  Rendered blackjack/bet.html.erb (Duration: 2.2ms | Allocations: 913)
+Completed 200 OK in 5ms (Views: 2.9ms | Allocations: 1730)
+
+
+Started GET "/bet" for 127.0.0.1 at 2023-03-13 15:22:42 -0700
+Processing by BlackjackController#bet as HTML
+  Rendering blackjack/bet.html.erb
+  Rendered blackjack/bet.html.erb (Duration: 2.1ms | Allocations: 844)
+Completed 200 OK in 5ms (Views: 2.6ms | Allocations: 1412)
+
+
+Started POST "/save_bet" for 127.0.0.1 at 2023-03-13 15:22:44 -0700
+Processing by BlackjackController#save_bet as HTML
+  Parameters: {"bet"=>"-011", "redirect_to"=>"/submit", "button1"=>"Submit"}
+Redirected to http://127.0.0.1:3000/bet
+Completed 302 Found in 3ms (Allocations: 439)
+
+
+Started GET "/bet" for 127.0.0.1 at 2023-03-13 15:22:44 -0700
+Processing by BlackjackController#bet as HTML
+  Rendering blackjack/bet.html.erb
+  Rendered blackjack/bet.html.erb (Duration: 2.8ms | Allocations: 845)
+Completed 200 OK in 6ms (Views: 3.3ms | Allocations: 1447)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:23:49 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 2.0ms | Allocations: 912)
+Completed 200 OK in 5ms (Views: 2.7ms | Allocations: 1754)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:23:53 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"player"=>"", "deposit"=>"", "button1"=>"Start New Game", "redirect_to"=>"/submit"}
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 3ms (Allocations: 465)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:23:54 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 2.2ms | Allocations: 845)
+Completed 200 OK in 5ms (Views: 2.7ms | Allocations: 1454)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:23:56 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"player"=>"", "deposit"=>"2345", "button1"=>"Start New Game", "redirect_to"=>"/submit"}
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 2ms (Allocations: 443)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:23:56 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 2.1ms | Allocations: 845)
+Completed 200 OK in 5ms (Views: 2.6ms | Allocations: 1466)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:25:52 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 2.1ms | Allocations: 912)
+Completed 200 OK in 5ms (Views: 2.8ms | Allocations: 1781)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:25:54 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"player"=>"", "deposit"=>"", "button1"=>"Start New Game", "redirect_to"=>"/submit"}
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 2ms (Allocations: 439)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:25:54 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 3.1ms | Allocations: 845)
+Completed 200 OK in 6ms (Views: 3.5ms | Allocations: 1472)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:25:56 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"player"=>"asdf", "deposit"=>"", "button1"=>"Start New Game", "redirect_to"=>"/submit"}
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 3ms (Allocations: 451)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:25:56 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 2.3ms | Allocations: 844)
+Completed 200 OK in 5ms (Views: 2.8ms | Allocations: 1446)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:26:25 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 2.0ms | Allocations: 912)
+Completed 200 OK in 5ms (Views: 2.6ms | Allocations: 1766)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:26:28 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"player"=>"dsfbfg", "deposit"=>"", "button1"=>"Start New Game", "redirect_to"=>"/submit"}
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 2ms (Allocations: 455)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:26:28 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 2.0ms | Allocations: 845)
+Completed 200 OK in 5ms (Views: 2.5ms | Allocations: 1445)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:26:32 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"player"=>"sdfgsfdg", "deposit"=>"-1000", "button1"=>"Start New Game", "redirect_to"=>"/submit"}
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 3ms (Allocations: 468)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:26:32 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 2.4ms | Allocations: 845)
+Completed 200 OK in 5ms (Views: 2.9ms | Allocations: 1460)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:26:36 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"player"=>"asdfgdfs", "deposit"=>"2000", "button1"=>"Start New Game", "redirect_to"=>"/submit"}
+Redirected to http://127.0.0.1:3000/bet
+Completed 302 Found in 3ms (Allocations: 594)
+
+
+Started GET "/bet" for 127.0.0.1 at 2023-03-13 15:26:36 -0700
+Processing by BlackjackController#bet as HTML
+  Rendering blackjack/bet.html.erb
+  Rendered blackjack/bet.html.erb (Duration: 2.3ms | Allocations: 845)
+Completed 200 OK in 5ms (Views: 2.7ms | Allocations: 1453)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:26:47 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 2.1ms | Allocations: 911)
+Completed 200 OK in 5ms (Views: 2.8ms | Allocations: 1764)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:27:04 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"player"=>"Jeff", "deposit"=>"102032345", "button1"=>"Start New Game", "redirect_to"=>"/submit"}
+Redirected to http://127.0.0.1:3000/bet
+Completed 302 Found in 5ms (Allocations: 492)
+
+
+Started GET "/bet" for 127.0.0.1 at 2023-03-13 15:27:05 -0700
+Processing by BlackjackController#bet as HTML
+  Rendering blackjack/bet.html.erb
+  Rendered blackjack/bet.html.erb (Duration: 2.6ms | Allocations: 912)
+Completed 200 OK in 6ms (Views: 3.5ms | Allocations: 1599)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:27:07 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 2.3ms | Allocations: 845)
+Completed 200 OK in 5ms (Views: 3.1ms | Allocations: 1318)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:27:27 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 2.4ms | Allocations: 911)
+Completed 200 OK in 5ms (Views: 3.0ms | Allocations: 1669)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:27:31 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 2.4ms | Allocations: 911)
+Completed 200 OK in 5ms (Views: 3.0ms | Allocations: 1635)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:27:37 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"player"=>"", "deposit"=>"", "button1"=>"Start New Game", "redirect_to"=>"/submit"}
+Completed 500 Internal Server Error in 2ms (Allocations: 638)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/blackjack_controller.rb:25:in `save_name_cash'
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:27:47 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"player"=>"", "deposit"=>"", "button1"=>"Start New Game", "redirect_to"=>"/submit"}
+Completed 500 Internal Server Error in 2ms (Allocations: 608)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/blackjack_controller.rb:25:in `save_name_cash'
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:28:20 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 2.1ms | Allocations: 911)
+Completed 200 OK in 5ms (Views: 2.8ms | Allocations: 1633)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:28:24 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"player"=>"Jeff", "deposit"=>"1234", "button1"=>"Start New Game", "redirect_to"=>"/submit"}
+Redirected to http://127.0.0.1:3000/bet
+Completed 302 Found in 3ms (Allocations: 463)
+
+
+Started GET "/bet" for 127.0.0.1 at 2023-03-13 15:28:24 -0700
+Processing by BlackjackController#bet as HTML
+  Rendering blackjack/bet.html.erb
+  Rendered blackjack/bet.html.erb (Duration: 1.9ms | Allocations: 845)
+Completed 200 OK in 4ms (Views: 2.3ms | Allocations: 1312)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:28:26 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 2.0ms | Allocations: 844)
+Completed 200 OK in 5ms (Views: 2.4ms | Allocations: 1335)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:28:28 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"player"=>"", "deposit"=>"", "button1"=>"Start New Game", "redirect_to"=>"/submit"}
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 2ms (Allocations: 335)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:28:28 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 2.2ms | Allocations: 845)
+Completed 200 OK in 5ms (Views: 2.6ms | Allocations: 1334)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:28:30 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"player"=>"dfgs", "deposit"=>"", "button1"=>"Start New Game", "redirect_to"=>"/submit"}
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 3ms (Allocations: 327)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:28:30 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 2.0ms | Allocations: 845)
+Completed 200 OK in 5ms (Views: 2.5ms | Allocations: 1340)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:28:32 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"player"=>"", "deposit"=>"21345", "button1"=>"Start New Game", "redirect_to"=>"/submit"}
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 3ms (Allocations: 326)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:28:32 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 2.2ms | Allocations: 845)
+Completed 200 OK in 5ms (Views: 2.6ms | Allocations: 1334)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:28:39 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 2.2ms | Allocations: 911)
+Completed 200 OK in 5ms (Views: 2.9ms | Allocations: 1642)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:28:55 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"player"=>"", "deposit"=>"", "button1"=>"Start New Game", "redirect_to"=>"/submit"}
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 3ms (Allocations: 370)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:28:56 -0700
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:28:56 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 3.9ms | Allocations: 957)
+Completed 200 OK in 9ms (Views: 6.0ms | Allocations: 1658)
+
+
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"player"=>"", "deposit"=>"", "button1"=>"Start New Game", "redirect_to"=>"/submit"}
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 2ms (Allocations: 442)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:28:56 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 2.1ms | Allocations: 844)
+Completed 200 OK in 5ms (Views: 2.5ms | Allocations: 1308)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:29:01 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"player"=>"Jeff", "deposit"=>"", "button1"=>"Start New Game", "redirect_to"=>"/submit"}
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 3ms (Allocations: 303)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:29:01 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 2.0ms | Allocations: 844)
+Completed 200 OK in 4ms (Views: 2.4ms | Allocations: 1305)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:29:08 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"player"=>"Jeff", "deposit"=>"-100", "button1"=>"Start New Game", "redirect_to"=>"/submit"}
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 2ms (Allocations: 326)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:29:08 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 1.9ms | Allocations: 844)
+Completed 200 OK in 5ms (Views: 2.4ms | Allocations: 1317)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:29:12 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"player"=>"1324", "deposit"=>"0", "button1"=>"Start New Game", "redirect_to"=>"/submit"}
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 2ms (Allocations: 144)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:29:12 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 1.9ms | Allocations: 843)
+Completed 200 OK in 5ms (Views: 2.3ms | Allocations: 1294)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:29:20 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"player"=>"Jeff", "deposit"=>"1000", "button1"=>"Start New Game", "redirect_to"=>"/submit"}
+Redirected to http://127.0.0.1:3000/bet
+Completed 302 Found in 4ms (Allocations: 417)
+
+
+Started GET "/bet" for 127.0.0.1 at 2023-03-13 15:29:20 -0700
+Processing by BlackjackController#bet as HTML
+  Rendering blackjack/bet.html.erb
+  Rendered blackjack/bet.html.erb (Duration: 2.2ms | Allocations: 845)
+Completed 200 OK in 5ms (Views: 2.6ms | Allocations: 1300)
+
+
+Started POST "/save_bet" for 127.0.0.1 at 2023-03-13 15:29:24 -0700
+Processing by BlackjackController#save_bet as HTML
+  Parameters: {"bet"=>"-100", "redirect_to"=>"/submit", "button1"=>"Submit"}
+Redirected to http://127.0.0.1:3000/bet
+Completed 302 Found in 3ms (Allocations: 316)
+
+
+Started GET "/bet" for 127.0.0.1 at 2023-03-13 15:29:24 -0700
+Processing by BlackjackController#bet as HTML
+  Rendering blackjack/bet.html.erb
+  Rendered blackjack/bet.html.erb (Duration: 2.1ms | Allocations: 845)
+Completed 200 OK in 5ms (Views: 2.6ms | Allocations: 1336)
+
+
+Started POST "/save_bet" for 127.0.0.1 at 2023-03-13 15:29:28 -0700
+Processing by BlackjackController#save_bet as HTML
+  Parameters: {"bet"=>"10000", "redirect_to"=>"/submit", "button1"=>"Submit"}
+Redirected to http://127.0.0.1:3000/bet
+Completed 302 Found in 3ms (Allocations: 331)
+
+
+Started GET "/bet" for 127.0.0.1 at 2023-03-13 15:29:28 -0700
+Processing by BlackjackController#bet as HTML
+  Rendering blackjack/bet.html.erb
+  Rendered blackjack/bet.html.erb (Duration: 5.4ms | Allocations: 846)
+Completed 200 OK in 8ms (Views: 5.8ms | Allocations: 1310)
+
+
+Started POST "/save_bet" for 127.0.0.1 at 2023-03-13 15:29:35 -0700
+Processing by BlackjackController#save_bet as HTML
+  Parameters: {"bet"=>"500", "redirect_to"=>"/submit", "button1"=>"Submit"}
+Redirected to http://127.0.0.1:3000/deal_new
+Completed 302 Found in 76ms (Allocations: 12694)
+
+
+Started GET "/deal_new" for 127.0.0.1 at 2023-03-13 15:29:35 -0700
+Processing by BlackjackController#deal_new as HTML
+  Rendering blackjack/deal_new.html.erb
+  Rendered blackjack/deal_new.html.erb (Duration: 1.9ms | Allocations: 853)
+Completed 200 OK in 5ms (Views: 2.3ms | Allocations: 1544)
+
+
+Started POST "/game" for 127.0.0.1 at 2023-03-13 15:29:45 -0700
+Processing by BlackjackController#game as HTML
+  Parameters: {"redirect_to"=>"/hit", "button1"=>"Hit"}
+Redirected to http://127.0.0.1:3000/deal_new
+Completed 302 Found in 3ms (Allocations: 570)
+
+
+Started GET "/deal_new" for 127.0.0.1 at 2023-03-13 15:29:45 -0700
+Processing by BlackjackController#deal_new as HTML
+  Rendering blackjack/deal_new.html.erb
+  Rendered blackjack/deal_new.html.erb (Duration: 3.5ms | Allocations: 851)
+Completed 200 OK in 6ms (Views: 4.2ms | Allocations: 1528)
+
+
+Started POST "/game" for 127.0.0.1 at 2023-03-13 15:29:50 -0700
+Processing by BlackjackController#game as HTML
+  Parameters: {"redirect_to"=>"/stand", "button2"=>"Stand"}
+Redirected to http://127.0.0.1:3000/game_stand
+Completed 302 Found in 2ms (Allocations: 495)
+
+
+Started GET "/game_stand" for 127.0.0.1 at 2023-03-13 15:29:50 -0700
+Processing by BlackjackController#game_stand as HTML
+  Rendering blackjack/game_stand.html.erb
+  Rendered blackjack/game_stand.html.erb (Duration: 2.5ms | Allocations: 856)
+Completed 200 OK in 5ms (Views: 2.9ms | Allocations: 1564)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:30:10 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"redirect_to"=>"/continuegame", "button1"=>"Continue"}
+Redirected to http://127.0.0.1:3000/bet
+Completed 302 Found in 3ms (Allocations: 443)
+
+
+Started GET "/bet" for 127.0.0.1 at 2023-03-13 15:30:10 -0700
+Processing by BlackjackController#bet as HTML
+  Rendering blackjack/bet.html.erb
+  Rendered blackjack/bet.html.erb (Duration: 3.0ms | Allocations: 845)
+Completed 200 OK in 6ms (Views: 3.6ms | Allocations: 1443)
+
+
+Started POST "/save_bet" for 127.0.0.1 at 2023-03-13 15:30:15 -0700
+Processing by BlackjackController#save_bet as HTML
+  Parameters: {"bet"=>"1500", "redirect_to"=>"/submit", "button1"=>"Submit"}
+Redirected to http://127.0.0.1:3000/deal_new
+Completed 302 Found in 3ms (Allocations: 699)
+
+
+Started GET "/deal_new" for 127.0.0.1 at 2023-03-13 15:30:15 -0700
+Processing by BlackjackController#deal_new as HTML
+  Rendering blackjack/deal_new.html.erb
+  Rendered blackjack/deal_new.html.erb (Duration: 2.2ms | Allocations: 851)
+Completed 200 OK in 5ms (Views: 2.6ms | Allocations: 1533)
+
+
+Started POST "/game" for 127.0.0.1 at 2023-03-13 15:30:16 -0700
+Processing by BlackjackController#game as HTML
+  Parameters: {"redirect_to"=>"/hit", "button1"=>"Hit"}
+Redirected to http://127.0.0.1:3000/game_stand
+Completed 302 Found in 2ms (Allocations: 544)
+
+
+Started GET "/game_stand" for 127.0.0.1 at 2023-03-13 15:30:16 -0700
+Processing by BlackjackController#game_stand as HTML
+  Rendering blackjack/game_stand.html.erb
+  Rendered blackjack/game_stand.html.erb (Duration: 2.0ms | Allocations: 854)
+Completed 200 OK in 5ms (Views: 2.4ms | Allocations: 1531)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:30:17 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"redirect_to"=>"/continuegame", "button1"=>"Continue"}
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 3ms (Allocations: 454)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:30:17 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 3.0ms | Allocations: 844)
+Completed 200 OK in 8ms (Views: 5.4ms | Allocations: 1487)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:30:45 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 6.0ms | Allocations: 843)
+Completed 200 OK in 10ms (Views: 6.4ms | Allocations: 1443)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:30:48 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"player"=>"Jeff", "deposit"=>"1234", "button1"=>"Start New Game", "redirect_to"=>"/submit"}
+Redirected to http://127.0.0.1:3000/bet
+Completed 302 Found in 4ms (Allocations: 461)
+
+
+Started GET "/bet" for 127.0.0.1 at 2023-03-13 15:30:48 -0700
+Processing by BlackjackController#bet as HTML
+  Rendering blackjack/bet.html.erb
+  Rendered blackjack/bet.html.erb (Duration: 6.0ms | Allocations: 844)
+Completed 200 OK in 9ms (Views: 6.4ms | Allocations: 1415)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:30:56 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 2.3ms | Allocations: 859)
+Completed 200 OK in 5ms (Views: 2.8ms | Allocations: 1431)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:31:01 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"player"=>"", "deposit"=>"", "redirect_to"=>"/continuefromprevious", "button1"=>"Continue from previous game"}
+Redirected to http://127.0.0.1:3000/bet
+Completed 302 Found in 2ms (Allocations: 456)
+
+
+Started GET "/bet" for 127.0.0.1 at 2023-03-13 15:31:01 -0700
+Processing by BlackjackController#bet as HTML
+  Rendering blackjack/bet.html.erb
+  Rendered blackjack/bet.html.erb (Duration: 2.1ms | Allocations: 847)
+Completed 200 OK in 5ms (Views: 2.6ms | Allocations: 1470)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:33:53 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 2.2ms | Allocations: 911)
+Completed 200 OK in 5ms (Views: 2.9ms | Allocations: 1786)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:35:45 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"player"=>"", "deposit"=>"", "button1"=>"Start New Game", "redirect_to"=>"/submit"}
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 2ms (Allocations: 385)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:35:47 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 2.1ms | Allocations: 912)
+Completed 200 OK in 5ms (Views: 2.9ms | Allocations: 1603)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:35:50 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"player"=>"Jeff", "deposit"=>"", "button1"=>"Start New Game", "redirect_to"=>"/submit"}
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 3ms (Allocations: 306)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:35:50 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 2.2ms | Allocations: 844)
+Completed 200 OK in 5ms (Views: 2.6ms | Allocations: 1314)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:35:59 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"player"=>"Jeff", "deposit"=>"-100", "button1"=>"Start New Game", "redirect_to"=>"/submit"}
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 3ms (Allocations: 302)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:35:59 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 2.0ms | Allocations: 844)
+Completed 200 OK in 5ms (Views: 2.4ms | Allocations: 1302)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:36:05 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"player"=>"Jeff", "deposit"=>"1000", "button1"=>"Start New Game", "redirect_to"=>"/submit"}
+Redirected to http://127.0.0.1:3000/bet
+Completed 302 Found in 3ms (Allocations: 420)
+
+
+Started GET "/bet" for 127.0.0.1 at 2023-03-13 15:36:05 -0700
+Processing by BlackjackController#bet as HTML
+  Rendering blackjack/bet.html.erb
+  Rendered blackjack/bet.html.erb (Duration: 2.0ms | Allocations: 845)
+Completed 200 OK in 4ms (Views: 2.4ms | Allocations: 1306)
+
+
+Started POST "/save_bet" for 127.0.0.1 at 2023-03-13 15:36:13 -0700
+Processing by BlackjackController#save_bet as HTML
+  Parameters: {"bet"=>"-100", "redirect_to"=>"/submit", "button1"=>"Submit"}
+Redirected to http://127.0.0.1:3000/bet
+Completed 302 Found in 2ms (Allocations: 337)
+
+
+Started GET "/bet" for 127.0.0.1 at 2023-03-13 15:36:13 -0700
+Processing by BlackjackController#bet as HTML
+  Rendering blackjack/bet.html.erb
+  Rendered blackjack/bet.html.erb (Duration: 2.3ms | Allocations: 845)
+Completed 200 OK in 5ms (Views: 2.8ms | Allocations: 1333)
+
+
+Started POST "/save_bet" for 127.0.0.1 at 2023-03-13 15:36:15 -0700
+Processing by BlackjackController#save_bet as HTML
+  Parameters: {"bet"=>"0", "redirect_to"=>"/submit", "button1"=>"Submit"}
+Redirected to http://127.0.0.1:3000/bet
+Completed 302 Found in 2ms (Allocations: 331)
+
+
+Started GET "/bet" for 127.0.0.1 at 2023-03-13 15:36:15 -0700
+Processing by BlackjackController#bet as HTML
+  Rendering blackjack/bet.html.erb
+  Rendered blackjack/bet.html.erb (Duration: 2.2ms | Allocations: 845)
+Completed 200 OK in 5ms (Views: 2.6ms | Allocations: 1318)
+
+
+Started POST "/save_bet" for 127.0.0.1 at 2023-03-13 15:36:19 -0700
+Processing by BlackjackController#save_bet as HTML
+  Parameters: {"bet"=>"10000", "redirect_to"=>"/submit", "button1"=>"Submit"}
+Redirected to http://127.0.0.1:3000/bet
+Completed 302 Found in 2ms (Allocations: 310)
+
+
+Started GET "/bet" for 127.0.0.1 at 2023-03-13 15:36:19 -0700
+Processing by BlackjackController#bet as HTML
+  Rendering blackjack/bet.html.erb
+  Rendered blackjack/bet.html.erb (Duration: 2.1ms | Allocations: 845)
+Completed 200 OK in 5ms (Views: 2.6ms | Allocations: 1330)
+
+
+Started POST "/save_bet" for 127.0.0.1 at 2023-03-13 15:36:23 -0700
+Processing by BlackjackController#save_bet as HTML
+  Parameters: {"bet"=>"500", "redirect_to"=>"/submit", "button1"=>"Submit"}
+Redirected to http://127.0.0.1:3000/deal_new
+Completed 302 Found in 70ms (Allocations: 12705)
+
+
+Started GET "/deal_new" for 127.0.0.1 at 2023-03-13 15:36:23 -0700
+Processing by BlackjackController#deal_new as HTML
+  Rendering blackjack/deal_new.html.erb
+  Rendered blackjack/deal_new.html.erb (Duration: 2.7ms | Allocations: 851)
+Completed 200 OK in 5ms (Views: 3.1ms | Allocations: 1527)
+
+
+Started POST "/game" for 127.0.0.1 at 2023-03-13 15:36:35 -0700
+Processing by BlackjackController#game as HTML
+  Parameters: {"redirect_to"=>"/hit", "button1"=>"Hit"}
+Redirected to http://127.0.0.1:3000/deal_new
+Completed 302 Found in 2ms (Allocations: 546)
+
+
+Started GET "/deal_new" for 127.0.0.1 at 2023-03-13 15:36:35 -0700
+Processing by BlackjackController#deal_new as HTML
+  Rendering blackjack/deal_new.html.erb
+  Rendered blackjack/deal_new.html.erb (Duration: 2.0ms | Allocations: 851)
+Completed 200 OK in 5ms (Views: 2.4ms | Allocations: 1537)
+
+
+Started POST "/game" for 127.0.0.1 at 2023-03-13 15:36:39 -0700
+Processing by BlackjackController#game as HTML
+  Parameters: {"redirect_to"=>"/hit", "button1"=>"Hit"}
+Redirected to http://127.0.0.1:3000/deal_new
+Completed 302 Found in 3ms (Allocations: 562)
+
+
+Started GET "/deal_new" for 127.0.0.1 at 2023-03-13 15:36:39 -0700
+Processing by BlackjackController#deal_new as HTML
+  Rendering blackjack/deal_new.html.erb
+  Rendered blackjack/deal_new.html.erb (Duration: 2.0ms | Allocations: 852)
+Completed 200 OK in 5ms (Views: 2.5ms | Allocations: 1539)
+
+
+Started POST "/game" for 127.0.0.1 at 2023-03-13 15:36:43 -0700
+Processing by BlackjackController#game as HTML
+  Parameters: {"redirect_to"=>"/stand", "button2"=>"Stand"}
+Redirected to http://127.0.0.1:3000/game_stand
+Completed 302 Found in 2ms (Allocations: 520)
+
+
+Started GET "/game_stand" for 127.0.0.1 at 2023-03-13 15:36:43 -0700
+Processing by BlackjackController#game_stand as HTML
+  Rendering blackjack/game_stand.html.erb
+  Rendered blackjack/game_stand.html.erb (Duration: 2.0ms | Allocations: 859)
+Completed 200 OK in 5ms (Views: 2.5ms | Allocations: 1713)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:36:52 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"redirect_to"=>"/continuegame", "button1"=>"Continue"}
+Redirected to http://127.0.0.1:3000/bet
+Completed 302 Found in 3ms (Allocations: 428)
+
+
+Started GET "/bet" for 127.0.0.1 at 2023-03-13 15:36:52 -0700
+Processing by BlackjackController#bet as HTML
+  Rendering blackjack/bet.html.erb
+  Rendered blackjack/bet.html.erb (Duration: 2.2ms | Allocations: 844)
+Completed 200 OK in 5ms (Views: 2.7ms | Allocations: 1460)
+
+
+Started POST "/save_bet" for 127.0.0.1 at 2023-03-13 15:36:56 -0700
+Processing by BlackjackController#save_bet as HTML
+  Parameters: {"bet"=>"1500", "redirect_to"=>"/submit", "button1"=>"Submit"}
+Redirected to http://127.0.0.1:3000/deal_new
+Completed 302 Found in 3ms (Allocations: 762)
+
+
+Started GET "/deal_new" for 127.0.0.1 at 2023-03-13 15:36:56 -0700
+Processing by BlackjackController#deal_new as HTML
+  Rendering blackjack/deal_new.html.erb
+  Rendered blackjack/deal_new.html.erb (Duration: 2.1ms | Allocations: 850)
+Completed 200 OK in 5ms (Views: 2.6ms | Allocations: 1538)
+
+
+Started POST "/game" for 127.0.0.1 at 2023-03-13 15:36:57 -0700
+Processing by BlackjackController#game as HTML
+  Parameters: {"redirect_to"=>"/hit", "button1"=>"Hit"}
+Redirected to http://127.0.0.1:3000/deal_new
+Completed 302 Found in 5ms (Allocations: 533)
+
+
+Started GET "/deal_new" for 127.0.0.1 at 2023-03-13 15:36:57 -0700
+Processing by BlackjackController#deal_new as HTML
+  Rendering blackjack/deal_new.html.erb
+  Rendered blackjack/deal_new.html.erb (Duration: 2.1ms | Allocations: 866)
+Completed 200 OK in 5ms (Views: 2.9ms | Allocations: 1564)
+
+
+Started POST "/game" for 127.0.0.1 at 2023-03-13 15:36:57 -0700
+Processing by BlackjackController#game as HTML
+  Parameters: {"redirect_to"=>"/hit", "button1"=>"Hit"}
+Redirected to http://127.0.0.1:3000/game_stand
+Completed 302 Found in 3ms (Allocations: 540)
+
+
+Started GET "/game_stand" for 127.0.0.1 at 2023-03-13 15:36:57 -0700
+Processing by BlackjackController#game_stand as HTML
+  Rendering blackjack/game_stand.html.erb
+  Rendered blackjack/game_stand.html.erb (Duration: 2.0ms | Allocations: 857)
+Completed 200 OK in 5ms (Views: 2.7ms | Allocations: 1536)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:36:59 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"redirect_to"=>"/continuegame", "button1"=>"Continue"}
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 3ms (Allocations: 442)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:36:59 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 2.2ms | Allocations: 856)
+Completed 200 OK in 5ms (Views: 2.6ms | Allocations: 1502)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:37:06 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"player"=>"Jeff", "deposit"=>"1000", "button1"=>"Start New Game", "redirect_to"=>"/submit"}
+Redirected to http://127.0.0.1:3000/bet
+Completed 302 Found in 2ms (Allocations: 449)
+
+
+Started GET "/bet" for 127.0.0.1 at 2023-03-13 15:37:06 -0700
+Processing by BlackjackController#bet as HTML
+  Rendering blackjack/bet.html.erb
+  Rendered blackjack/bet.html.erb (Duration: 2.0ms | Allocations: 844)
+Completed 200 OK in 5ms (Views: 2.4ms | Allocations: 1433)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:37:14 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 2.2ms | Allocations: 844)
+Completed 200 OK in 5ms (Views: 2.7ms | Allocations: 1478)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:37:19 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"player"=>"", "deposit"=>"", "redirect_to"=>"/continuefromprevious", "button1"=>"Continue from previous game"}
+Redirected to http://127.0.0.1:3000/bet
+Completed 302 Found in 2ms (Allocations: 428)
+
+
+Started GET "/bet" for 127.0.0.1 at 2023-03-13 15:37:19 -0700
+Processing by BlackjackController#bet as HTML
+  Rendering blackjack/bet.html.erb
+  Rendered blackjack/bet.html.erb (Duration: 2.2ms | Allocations: 844)
+Completed 200 OK in 5ms (Views: 2.6ms | Allocations: 1423)
+
+
+Started POST "/save_bet" for 127.0.0.1 at 2023-03-13 15:37:21 -0700
+Processing by BlackjackController#save_bet as HTML
+  Parameters: {"bet"=>"500", "redirect_to"=>"/submit", "button1"=>"Submit"}
+Redirected to http://127.0.0.1:3000/deal_new
+Completed 302 Found in 2ms (Allocations: 681)
+
+
+Started GET "/deal_new" for 127.0.0.1 at 2023-03-13 15:37:21 -0700
+Processing by BlackjackController#deal_new as HTML
+  Rendering blackjack/deal_new.html.erb
+  Rendered blackjack/deal_new.html.erb (Duration: 2.4ms | Allocations: 851)
+Completed 200 OK in 5ms (Views: 2.9ms | Allocations: 1512)
+
+
+Started POST "/game" for 127.0.0.1 at 2023-03-13 15:37:23 -0700
+Processing by BlackjackController#game as HTML
+  Parameters: {"redirect_to"=>"/stand", "button2"=>"Stand"}
+Redirected to http://127.0.0.1:3000/game_stand
+Completed 302 Found in 2ms (Allocations: 483)
+
+
+Started GET "/game_stand" for 127.0.0.1 at 2023-03-13 15:37:23 -0700
+Processing by BlackjackController#game_stand as HTML
+  Rendering blackjack/game_stand.html.erb
+  Rendered blackjack/game_stand.html.erb (Duration: 2.1ms | Allocations: 852)
+Completed 200 OK in 5ms (Views: 2.5ms | Allocations: 1530)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:37:24 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"redirect_to"=>"/continuegame", "button1"=>"Continue"}
+Redirected to http://127.0.0.1:3000/bet
+Completed 302 Found in 3ms (Allocations: 446)
+
+
+Started GET "/bet" for 127.0.0.1 at 2023-03-13 15:37:24 -0700
+Processing by BlackjackController#bet as HTML
+  Rendering blackjack/bet.html.erb
+  Rendered blackjack/bet.html.erb (Duration: 2.2ms | Allocations: 844)
+Completed 200 OK in 5ms (Views: 2.6ms | Allocations: 1407)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:37:26 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 2.4ms | Allocations: 844)
+Completed 200 OK in 6ms (Views: 3.0ms | Allocations: 1449)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:41:48 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 2.2ms | Allocations: 911)
+Completed 200 OK in 5ms (Views: 2.8ms | Allocations: 1777)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:42:27 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"player"=>"", "deposit"=>"", "button1"=>"Start New Game", "redirect_to"=>"/submit"}
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 2ms (Allocations: 370)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:42:28 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 2.3ms | Allocations: 912)
+Completed 200 OK in 5ms (Views: 3.2ms | Allocations: 1612)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:42:33 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"player"=>"Jeff", "deposit"=>"", "button1"=>"Start New Game", "redirect_to"=>"/submit"}
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 2ms (Allocations: 300)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:42:33 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 2.0ms | Allocations: 844)
+Completed 200 OK in 5ms (Views: 2.5ms | Allocations: 1296)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:42:39 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"player"=>"Jeff", "deposit"=>"-100", "button1"=>"Start New Game", "redirect_to"=>"/submit"}
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 2ms (Allocations: 314)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:42:39 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 2.1ms | Allocations: 844)
+Completed 200 OK in 5ms (Views: 2.6ms | Allocations: 1314)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:42:44 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"player"=>"Jeff", "deposit"=>"1000", "button1"=>"Start New Game", "redirect_to"=>"/submit"}
+Redirected to http://127.0.0.1:3000/bet
+Completed 302 Found in 3ms (Allocations: 435)
+
+
+Started GET "/bet" for 127.0.0.1 at 2023-03-13 15:42:44 -0700
+Processing by BlackjackController#bet as HTML
+  Rendering blackjack/bet.html.erb
+  Rendered blackjack/bet.html.erb (Duration: 2.5ms | Allocations: 845)
+Completed 200 OK in 5ms (Views: 3.0ms | Allocations: 1309)
+
+
+Started POST "/save_bet" for 127.0.0.1 at 2023-03-13 15:42:47 -0700
+Processing by BlackjackController#save_bet as HTML
+  Parameters: {"bet"=>"-100", "redirect_to"=>"/submit", "button1"=>"Submit"}
+Redirected to http://127.0.0.1:3000/bet
+Completed 302 Found in 2ms (Allocations: 319)
+
+
+Started GET "/bet" for 127.0.0.1 at 2023-03-13 15:42:47 -0700
+Processing by BlackjackController#bet as HTML
+  Rendering blackjack/bet.html.erb
+  Rendered blackjack/bet.html.erb (Duration: 2.0ms | Allocations: 845)
+Completed 200 OK in 5ms (Views: 2.5ms | Allocations: 1342)
+
+
+Started POST "/save_bet" for 127.0.0.1 at 2023-03-13 15:42:49 -0700
+Processing by BlackjackController#save_bet as HTML
+  Parameters: {"bet"=>"0", "redirect_to"=>"/submit", "button1"=>"Submit"}
+Redirected to http://127.0.0.1:3000/bet
+Completed 302 Found in 2ms (Allocations: 331)
+
+
+Started GET "/bet" for 127.0.0.1 at 2023-03-13 15:42:49 -0700
+Processing by BlackjackController#bet as HTML
+  Rendering blackjack/bet.html.erb
+  Rendered blackjack/bet.html.erb (Duration: 2.4ms | Allocations: 845)
+Completed 200 OK in 5ms (Views: 2.9ms | Allocations: 1327)
+
+
+Started POST "/save_bet" for 127.0.0.1 at 2023-03-13 15:42:51 -0700
+Processing by BlackjackController#save_bet as HTML
+  Parameters: {"bet"=>"10000", "redirect_to"=>"/submit", "button1"=>"Submit"}
+Redirected to http://127.0.0.1:3000/bet
+Completed 302 Found in 2ms (Allocations: 316)
+
+
+Started GET "/bet" for 127.0.0.1 at 2023-03-13 15:42:51 -0700
+Processing by BlackjackController#bet as HTML
+  Rendering blackjack/bet.html.erb
+  Rendered blackjack/bet.html.erb (Duration: 2.0ms | Allocations: 845)
+Completed 200 OK in 5ms (Views: 2.6ms | Allocations: 1327)
+
+
+Started POST "/save_bet" for 127.0.0.1 at 2023-03-13 15:42:54 -0700
+Processing by BlackjackController#save_bet as HTML
+  Parameters: {"bet"=>"500", "redirect_to"=>"/submit", "button1"=>"Submit"}
+Redirected to http://127.0.0.1:3000/deal_new
+Completed 302 Found in 3ms (Allocations: 670)
+
+
+Started GET "/deal_new" for 127.0.0.1 at 2023-03-13 15:42:54 -0700
+Processing by BlackjackController#deal_new as HTML
+  Rendering blackjack/deal_new.html.erb
+  Rendered blackjack/deal_new.html.erb (Duration: 2.1ms | Allocations: 851)
+Completed 200 OK in 5ms (Views: 2.6ms | Allocations: 1527)
+
+
+Started POST "/game" for 127.0.0.1 at 2023-03-13 15:43:09 -0700
+Processing by BlackjackController#game as HTML
+  Parameters: {"redirect_to"=>"/hit", "button1"=>"Hit"}
+Redirected to http://127.0.0.1:3000/deal_new
+Completed 302 Found in 3ms (Allocations: 552)
+
+
+Started GET "/deal_new" for 127.0.0.1 at 2023-03-13 15:43:09 -0700
+Processing by BlackjackController#deal_new as HTML
+  Rendering blackjack/deal_new.html.erb
+  Rendered blackjack/deal_new.html.erb (Duration: 2.0ms | Allocations: 851)
+Completed 200 OK in 5ms (Views: 2.5ms | Allocations: 1522)
+
+
+Started POST "/game" for 127.0.0.1 at 2023-03-13 15:43:16 -0700
+Processing by BlackjackController#game as HTML
+  Parameters: {"redirect_to"=>"/stand", "button2"=>"Stand"}
+Redirected to http://127.0.0.1:3000/game_stand
+Completed 302 Found in 2ms (Allocations: 501)
+
+
+Started GET "/game_stand" for 127.0.0.1 at 2023-03-13 15:43:16 -0700
+Processing by BlackjackController#game_stand as HTML
+  Rendering blackjack/game_stand.html.erb
+  Rendered blackjack/game_stand.html.erb (Duration: 2.2ms | Allocations: 856)
+Completed 200 OK in 5ms (Views: 2.7ms | Allocations: 1677)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:43:25 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"redirect_to"=>"/continuegame", "button1"=>"Continue"}
+Redirected to http://127.0.0.1:3000/bet
+Completed 302 Found in 2ms (Allocations: 443)
+
+
+Started GET "/bet" for 127.0.0.1 at 2023-03-13 15:43:25 -0700
+Processing by BlackjackController#bet as HTML
+  Rendering blackjack/bet.html.erb
+  Rendered blackjack/bet.html.erb (Duration: 2.3ms | Allocations: 844)
+Completed 200 OK in 5ms (Views: 2.7ms | Allocations: 1469)
+
+
+Started POST "/save_bet" for 127.0.0.1 at 2023-03-13 15:43:34 -0700
+Processing by BlackjackController#save_bet as HTML
+  Parameters: {"bet"=>"1500", "redirect_to"=>"/submit", "button1"=>"Submit"}
+Redirected to http://127.0.0.1:3000/deal_new
+Completed 302 Found in 2ms (Allocations: 720)
+
+
+Started GET "/deal_new" for 127.0.0.1 at 2023-03-13 15:43:34 -0700
+Processing by BlackjackController#deal_new as HTML
+  Rendering blackjack/deal_new.html.erb
+  Rendered blackjack/deal_new.html.erb (Duration: 2.1ms | Allocations: 865)
+Completed 200 OK in 5ms (Views: 2.5ms | Allocations: 1538)
+
+
+Started POST "/game" for 127.0.0.1 at 2023-03-13 15:43:36 -0700
+Processing by BlackjackController#game as HTML
+  Parameters: {"redirect_to"=>"/hit", "button1"=>"Hit"}
+Redirected to http://127.0.0.1:3000/deal_new
+Completed 302 Found in 3ms (Allocations: 539)
+
+
+Started GET "/deal_new" for 127.0.0.1 at 2023-03-13 15:43:36 -0700
+Processing by BlackjackController#deal_new as HTML
+  Rendering blackjack/deal_new.html.erb
+  Rendered blackjack/deal_new.html.erb (Duration: 2.2ms | Allocations: 853)
+Completed 200 OK in 5ms (Views: 2.7ms | Allocations: 1539)
+
+
+Started POST "/game" for 127.0.0.1 at 2023-03-13 15:43:36 -0700
+Processing by BlackjackController#game as HTML
+  Parameters: {"redirect_to"=>"/hit", "button1"=>"Hit"}
+Redirected to http://127.0.0.1:3000/game_stand
+Completed 302 Found in 3ms (Allocations: 544)
+
+
+Started GET "/game_stand" for 127.0.0.1 at 2023-03-13 15:43:36 -0700
+Processing by BlackjackController#game_stand as HTML
+  Rendering blackjack/game_stand.html.erb
+  Rendered blackjack/game_stand.html.erb (Duration: 2.3ms | Allocations: 867)
+Completed 200 OK in 5ms (Views: 2.8ms | Allocations: 1555)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:43:37 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"redirect_to"=>"/continuegame", "button1"=>"Continue"}
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 3ms (Allocations: 448)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:43:38 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 2.2ms | Allocations: 844)
+Completed 200 OK in 5ms (Views: 2.7ms | Allocations: 1451)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:43:43 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"player"=>"Jeff", "deposit"=>"13412435", "button1"=>"Start New Game", "redirect_to"=>"/submit"}
+Redirected to http://127.0.0.1:3000/bet
+Completed 302 Found in 2ms (Allocations: 443)
+
+
+Started GET "/bet" for 127.0.0.1 at 2023-03-13 15:43:43 -0700
+Processing by BlackjackController#bet as HTML
+  Rendering blackjack/bet.html.erb
+  Rendered blackjack/bet.html.erb (Duration: 2.0ms | Allocations: 844)
+Completed 200 OK in 5ms (Views: 2.5ms | Allocations: 1442)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 15:44:01 -0700
+Processing by BlackjackController#start as HTML
+  Rendering blackjack/start.html.erb
+  Rendered blackjack/start.html.erb (Duration: 2.3ms | Allocations: 844)
+Completed 200 OK in 5ms (Views: 2.8ms | Allocations: 1430)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:44:06 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"player"=>"", "deposit"=>"", "redirect_to"=>"/continuefromprevious", "button1"=>"Continue from previous game"}
+Redirected to http://127.0.0.1:3000/bet
+Completed 302 Found in 3ms (Allocations: 437)
+
+
+Started GET "/bet" for 127.0.0.1 at 2023-03-13 15:44:06 -0700
+Processing by BlackjackController#bet as HTML
+  Rendering blackjack/bet.html.erb
+  Rendered blackjack/bet.html.erb (Duration: 2.1ms | Allocations: 844)
+Completed 200 OK in 5ms (Views: 2.6ms | Allocations: 1435)
+
+
+Started POST "/save_bet" for 127.0.0.1 at 2023-03-13 15:44:08 -0700
+Processing by BlackjackController#save_bet as HTML
+  Parameters: {"bet"=>"2345", "redirect_to"=>"/submit", "button1"=>"Submit"}
+Redirected to http://127.0.0.1:3000/deal_new
+Completed 302 Found in 3ms (Allocations: 722)
+
+
+Started GET "/deal_new" for 127.0.0.1 at 2023-03-13 15:44:08 -0700
+Processing by BlackjackController#deal_new as HTML
+  Rendering blackjack/deal_new.html.erb
+  Rendered blackjack/deal_new.html.erb (Duration: 2.0ms | Allocations: 850)
+Completed 200 OK in 5ms (Views: 2.5ms | Allocations: 1505)
+
+
+Started POST "/game" for 127.0.0.1 at 2023-03-13 15:44:09 -0700
+Processing by BlackjackController#game as HTML
+  Parameters: {"redirect_to"=>"/stand", "button2"=>"Stand"}
+Redirected to http://127.0.0.1:3000/game_stand
+Completed 302 Found in 2ms (Allocations: 450)
+
+
+Started GET "/game_stand" for 127.0.0.1 at 2023-03-13 15:44:09 -0700
+Processing by BlackjackController#game_stand as HTML
+  Rendering blackjack/game_stand.html.erb
+  Rendered blackjack/game_stand.html.erb (Duration: 2.1ms | Allocations: 855)
+Completed 200 OK in 5ms (Views: 2.6ms | Allocations: 1574)
+
+
+Started POST "/save_name_cash" for 127.0.0.1 at 2023-03-13 15:44:10 -0700
+Processing by BlackjackController#save_name_cash as HTML
+  Parameters: {"redirect_to"=>"/continuegame", "button1"=>"Continue"}
+Redirected to http://127.0.0.1:3000/bet
+Completed 302 Found in 2ms (Allocations: 467)
+
+
+Started GET "/bet" for 127.0.0.1 at 2023-03-13 15:44:10 -0700
+Processing by BlackjackController#bet as HTML
+  Rendering blackjack/bet.html.erb
+  Rendered blackjack/bet.html.erb (Duration: 2.4ms | Allocations: 844)
+Completed 200 OK in 5ms (Views: 3.1ms | Allocations: 1409)
+
+

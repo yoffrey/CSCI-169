@@ -3,7 +3,7 @@ class BlackjackController < ApplicationController
 
   def start
     # If player exists, give user option to continue playing
-    if session[:player_hand]["cash"] > 0
+    if session[:player_hand] and session[:player_hand]["cash"] > 0
       player = session[:player_hand]["player"]
       cash = session[:player_hand]["cash"]
       @continue = "You may continue the game as #{player} with $#{cash}."
@@ -16,17 +16,20 @@ class BlackjackController < ApplicationController
       redirect_to bet_path
     elsif params[:redirect_to] == "/continuefromprevious" and session[:player_hand]["cash"] > 0
       redirect_to bet_path
-    elsif params[:redirect_to] == "/submit" and params[:player] and params[:deposit].to_i>0
+    elsif params[:redirect_to] == "/submit" and params[:player] != "" and params[:deposit].to_i>0
       # Start new game
       player_hand = Hand.new(params[:player], params[:deposit].to_i)
       session[:player_hand] = player_hand
       redirect_to bet_path
     else
-      if session[:player_hand]["cash"] <= 0
-        flash.alert = "You are out of money."
-      else
-        flash.alert = "Error. Try Again"
+      if params[:redirect_to] == "/continuegame" and session[:player_hand]["cash"] <= 0
+        flash[:error] = "You are out of money."
+      elsif  params[:player] == ""
+        flash[:error] = "Please enter a name."
+      elsif params[:deposit].to_i < 0 or params[:deposit] == ""
+        flash[:error] = "Place a deposit."
       end
+
       redirect_to root_path
     end
   end
@@ -46,7 +49,9 @@ class BlackjackController < ApplicationController
         redirect_to bet_path
       elsif params[:bet].to_i <= 0
         flash[:error] = "Bet more."
+        redirect_to bet_path
       elsif params[:bet] == ""
+        flash[:error] = "Place a bet."
         redirect_to bet_path
       else
         session[:bet] = params[:bet].to_i
